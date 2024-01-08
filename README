@@ -1,1 +1,5 @@
-o
+# DorisGPT
+
+This script enables users to dictate a vocal prompt, send the request to ChatGPT, and receive the corresponding response, all in a vocal manner.
+
+Version 0.1
