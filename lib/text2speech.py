@@ -6,7 +6,7 @@ openai.api_key = "OPENAI-TOKEN"
 if len(sys.argv) > 1:
     question = sys.argv[1]
 else:
-    question = "Je veux que tu me parles bri?vement du mod?le JANUS de Jean Pierre Petit."
+    question = "Je veux que tu me parles brièvement du modèle JANUS de Jean Pierre Petit."
 retry_limit = 3
 retry_count = 0
 while retry_count < retry_limit:
