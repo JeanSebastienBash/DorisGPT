@@ -6,7 +6,6 @@ import subprocess
 import sounddevice as sd
 import numpy as np
 import speech_recognition as sr
-
 #model_path = "lib/models/vosk/vosk-model-small-fr-0.22/"
 model_path = "lib/models/vosk/vosk-model-fr-0.22/"
 output_dir = "output"
@@ -31,4 +30,3 @@ with sr.AudioFile(output_file) as audio_file:
     audio = r.record(audio_file)
 text = r.recognize_google(audio, language="fr-FR")
 print(text)
-
