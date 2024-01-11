@@ -6,20 +6,19 @@ import subprocess
 import sounddevice as sd
 import numpy as np
 import speech_recognition as sr
-
 #model_path = "lib/models/vosk/vosk-model-small-fr-0.22/"
 model_path = "lib/models/vosk/vosk-model-fr-0.22/"
 output_dir = "output"
 os.makedirs(output_dir, exist_ok=True)
 sample_rate = 16000
 recognizer = vosk.KaldiRecognizer(vosk.Model(model_path), sample_rate)
-duration = 5  # Dur?e d'enregistrement en secondes
+duration = 5
 output_file = os.path.join(output_dir, "question.wav")
-fs = 44100  # Fr?quence d'?chantillonnage
-duration_signal = 0.2  # Dur?e du signal en secondes
+fs = 44100
+duration_signal = 0.2
 t = np.linspace(0, duration_signal, int(duration_signal * fs), False)
-start_signal = np.sin(2 * np.pi * 440 * t)  # Signal sonore pour le top d?part
-end_signal = np.sin(2 * np.pi * 880 * t)  # Signal sonore pour le top fin
+start_signal = np.sin(2 * np.pi * 440 * t)
+end_signal = np.sin(2 * np.pi * 880 * t)
 def play_signal(signal):
     sd.play(signal, samplerate=fs, blocking=True)
 play_signal(start_signal)
@@ -31,4 +30,3 @@ with sr.AudioFile(output_file) as audio_file:
     audio = r.record(audio_file)
 text = r.recognize_google(audio, language="fr-FR")
 print(text)
-
