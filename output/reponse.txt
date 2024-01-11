@@ -1,0 +1,5 @@
+L'intelligence artificielle (IA) est un domaine de l'informatique qui se concentre sur la création de machines ou de systèmes capables de réaliser des tâches qui nécessitent normalement l'intelligence humaine. L'objectif est de permettre à ces machines d'apprendre, de raisonner, de résoudre des problèmes et de prendre des décisions de manière autonome.
+
+L'IA peut être divisée en deux catégories principales : l'IA faible et l'IA forte. L'IA faible se réfère à des systèmes spécifiques qui sont capables de réaliser des tâches spécifiques, comme jouer aux échecs ou traduire des textes. En revanche, l'IA forte vise à créer des systèmes qui possèdent une intelligence générale équivalente ou supérieure à celle des êtres humains.
+
+Les principaux domaines de recherche en IA incluent l'apprentissage automatique (machine learning), qui permet aux systèmes d'apprendre à partir de l'expérience et des données ; le traitement du langage naturel, qui se concentre sur la compr
