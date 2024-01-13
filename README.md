@@ -5,8 +5,8 @@ This script enables users to dictate a vocal prompt, send the request to ChatGPT
   1. **Install** the pre-requisites as root :
 ```bash
 sudo apt install sox
-python3 -m venv dorisVenv
-source dorisVenv/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 pip install openai==0.28
 mkdir -p output/
 ```
