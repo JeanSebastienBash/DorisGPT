@@ -7,3 +7,7 @@ python3 -m venv dorisVenv
 source dorisVenv/bin/activate
 pip install openai==0.28
 mkdir -p output/
+
+<p align="center">
+  <img src="dorisgpt.gpg" alt="dorisgpt image"/>
+</p>
