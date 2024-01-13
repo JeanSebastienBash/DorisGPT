@@ -9,5 +9,5 @@ pip install openai==0.28
 mkdir -p output/
 
 <p align="center">
-  <img src="dorisgpt.gpg" alt="dorisgpt image"/>
+  <img src="dorisgpt.jpg" alt="dorisgpt image" />
 </p>
