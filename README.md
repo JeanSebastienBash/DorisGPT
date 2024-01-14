@@ -27,7 +27,8 @@ git clone https://github.com/JeanSebastienBash/DorisGPT
 ```bash
 nano lib/text2speech.py # comment or uncomment as you want
 # model_path = "lib/models/vosk/vosk-model-small-fr-0.22/"
-# or model_path = "lib/models/vosk/vosk-model-fr-0.22/"```
+# or model_path = "lib/models/vosk/vosk-model-fr-0.22/"
+```
 
 4. **Set** the duration between the start and end beeps (for the voice question) in **lib/speech2text.py** :
 ```bash
