@@ -3,7 +3,7 @@
 This script allows users to dictate a voice command, send the transcribed text request to ChatGPT, and receive the corresponding text response, which is then vocally transcribed back to the user.
 
 Additionally:
-- The script is executed in the console on a Linux machine equipped with a microphone.
+- The script is deployed and executed in console on Linux Ubuntu Studio with the XFCE desktop environment (so you can create a launcher and a button).
 - The transcription of the user's audio question and the text output from ChatGPT are displayed in the console during the execution of the DorisGPT script.
 - In the end, the DorisGPT script assembles the fragments of audio files to merge them into a single file named response.wav. You will also find other output files in the output/ directory.
 
