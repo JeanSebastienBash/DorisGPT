@@ -53,7 +53,7 @@ pip install openai==0.28
 ```bash
 bash dorisgpt.sh
 ```
-**Overview** of Dorigpt files tree* :
+**Overview** of DoriGPT files tree* :
 ```bash
 # tree -L 5
 ├── dorisgpt.sh
