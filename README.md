@@ -42,7 +42,7 @@ duration = 5 # change here
 
 5. **Configure** your OpenAiI API Key in **lib/text2speech.py** :
 ```bash
-openai.api_key = "YOUR TOKEN HERE```
+openai.api_key = "YOUR TOKEN HERE" # insert your token
 ```
 
 6. **Install** the pre-requisites :
