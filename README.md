@@ -26,9 +26,8 @@ git clone https://github.com/JeanSebastienBash/DorisGPT
 3. **Configure** the vosk template you wish to use in **lib/speech2text.py** :
 ```bash
 nano lib/text2speech.py # comment or uncomment as you want
-# https://alphacephei.com/vosk/models/vosk-model-fr-0.22.zip
-# or https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip
-```
+# model_path = "lib/models/vosk/vosk-model-small-fr-0.22/"
+# or model_path = "lib/models/vosk/vosk-model-fr-0.22/"```
 
 4. **Set** the duration between the start and end beeps (for the voice question) in **lib/speech2text.py** :
 ```bash
