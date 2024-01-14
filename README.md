@@ -9,7 +9,7 @@ Additionally:
 
 ### DEPLOYMENT
 
-1. **Clone** DorisGPT Repo on you laptop or server with micro device entry :
+1. **Clone** DorisGPT Repo on your laptop or server using the micro device input: :
 ```bash
 git clone https://github.com/JeanSebastienBash/DorisGPT
 ```
@@ -23,14 +23,14 @@ git clone https://github.com/JeanSebastienBash/DorisGPT
 # or https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip
 ```
 
-3. **Configure** the vosk model you want use in **lib/speech2text.py** :
+3. **Configure** the vosk template you wish to use in **lib/speech2text.py** :
 ```bash
 nano lib/text2speech.py # comment or uncomment as you want
 # https://alphacephei.com/vosk/models/vosk-model-fr-0.22.zip
 # or https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip
 ```
 
-4. **Configure** the time duration between start bip & end bip (for vocal micro entry)  in **lib/speech2text.py** :
+4. **Set** the duration between the start and end beeps (for the voice question) in **lib/speech2text.py** :
 ```bash
 nano lib/text2speech.py # change number as duration you want
 duration = 5 # change here
