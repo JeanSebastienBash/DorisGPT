@@ -44,8 +44,8 @@ openai.api_key = "YOUR TOKEN HERE```
 6. **Install** the pre-requisites :
 ```bash
 sudo apt install sox
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv dorisgptenv
+source dorisgptenv/bin/activate
 pip install openai==0.28
 ```
 
