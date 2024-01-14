@@ -49,7 +49,7 @@ source dorisgptenv/bin/activate
 pip install openai==0.28
 ```
 
-7. **Run** DorisGPT script* :
+7. **Run** DorisGPT script :
 ```bash
 bash dorisgpt.sh
 ```
@@ -57,25 +57,7 @@ bash dorisgpt.sh
 ```bash
 # tree -L 5
 ├── dorisgpt.sh
-├── lib
-│   ├── models
-│   │   └── vosk
-│   │       ├── vosk-model-fr-0.22
-│   │       │   ├── am
-│   │       │   ├── conf
-│   │       │   ├── graph
-│   │       │   ├── ivector
-│   │       │   ├── README
-│   │       │   ├── rescore
-│   │       │   └── rnnlm
-│   │       └── vosk-model-small-fr-0.22
-│   │           ├── am
-│   │           ├── conf
-│   │           ├── graph
-│   │           ├── ivector
-│   │           └── README
-│   ├── speech2text.py
-│   └── text2speech.py
+├── dorisgpt.jpg
 └── output
     ├── question
     ├── question.wav
@@ -85,6 +67,76 @@ bash dorisgpt.sh
     ├── reponse_clean.txt
     ├── reponse_global.wav
     └── reponse.txt
+├── lib
+│   ├── speech2text.py
+│   └── text2speech.py
+│   ├── models
+│   │   └── vosk
+│   │       ├── vosk-model-fr-0.22
+│   │       │   ├── am
+│   │       │   │   └── final.mdl
+│   │       │   ├── conf
+│   │       │   │   ├── mfcc.conf
+│   │       │   │   └── model.conf
+│   │       │   ├── graph
+│   │       │   │   ├── disambig_tid.int
+│   │       │   │   ├── HCLG.fst
+│   │       │   │   ├── num_pdfs
+│   │       │   │   ├── phones
+│   │       │   │   │   ├── align_lexicon.int
+│   │       │   │   │   ├── align_lexicon.txt
+│   │       │   │   │   ├── disambig.int
+│   │       │   │   │   ├── disambig.txt
+│   │       │   │   │   ├── optional_silence.csl
+│   │       │   │   │   ├── optional_silence.int
+│   │       │   │   │   ├── optional_silence.txt
+│   │       │   │   │   ├── silence.csl
+│   │       │   │   │   ├── word_boundary.int
+│   │       │   │   │   └── word_boundary.txt
+│   │       │   │   ├── phones.txt
+│   │       │   │   └── words.txt
+│   │       │   ├── ivector
+│   │       │   │   ├── final.dubm
+│   │       │   │   ├── final.ie
+│   │       │   │   ├── final.mat
+│   │       │   │   ├── global_cmvn.stats
+│   │       │   │   ├── online_cmvn.conf
+│   │       │   │   └── splice.conf
+│   │       │   ├── README
+│   │       │   ├── rescore
+│   │       │   │   ├── G.carpa
+│   │       │   │   └── G.fst
+│   │       │   └── rnnlm
+│   │       │       ├── feat_embedding.final.mat
+│   │       │       ├── final.raw
+│   │       │       ├── oov.txt
+│   │       │       ├── special_symbol_opts.conf
+│   │       │       ├── special_symbol_opts.txt
+│   │       │       ├── unigram_probs.txt
+│   │       │       └── word_feats.txt
+│   │       ├── vosk-model-fr-0.22.zip
+│   │       └── vosk-model-small-fr-0.22
+│   │           ├── am
+│   │           │   └── final.mdl
+│   │           ├── conf
+│   │           │   ├── mfcc.conf
+│   │           │   └── model.conf
+│   │           ├── graph
+│   │           │   ├── disambig_tid.int
+│   │           │   ├── Gr.fst
+│   │           │   ├── HCLr.fst
+│   │           │   └── phones
+│   │           │       └── word_boundary.int
+│   │           ├── ivector
+│   │           │   ├── final.dubm
+│   │           │   ├── final.ie
+│   │           │   ├── final.mat
+│   │           │   ├── global_cmvn.stats
+│   │           │   ├── online_cmvn.conf
+│   │           │   └── splice.conf
+│   │           └── README
+├── dorisgptvenv
+│   ├── ...
 ```
 
 <p align="center">
