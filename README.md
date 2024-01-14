@@ -47,8 +47,6 @@ sudo apt install sox
 python3 -m venv venv
 source venv/bin/activate
 pip install openai==0.28
-mkdir output/
-mkdir -p lib/models/vosk
 
 # tree -L 5
 ├── dorisgpt.sh
