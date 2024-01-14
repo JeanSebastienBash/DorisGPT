@@ -2,7 +2,7 @@
 
 This script enables users to dictate a vocal prompt, send the request to ChatGPT, and receive the corresponding response, all in a vocal manner.
 
-  1. **Install** the pre-requisites as root :
+  1. **Install** the pre-requisites :
 ```bash
 sudo apt install sox
 python3 -m venv venv
