@@ -43,7 +43,7 @@ mkdir -p lib/models/vosk
     └── reponse.txt
 ```
 
-2. **Download** the Vosk model of your choice :
+2. **Download** and **Download** the Vosk model of your choice :
 ```bash
 # https://alphacephei.com/vosk/models
 
