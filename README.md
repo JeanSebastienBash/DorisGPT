@@ -1,4 +1,4 @@
-# DorisGPT
+# DorisGPT - ChatGPT-based Memoryless Voice Script
 
 This script allows users to dictate a voice command, send the transcribed text request to ChatGPT, and receive the corresponding text response, which is then vocally transcribed back to the user.
 
