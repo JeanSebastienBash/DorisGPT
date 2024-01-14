@@ -1,6 +1,10 @@
 # DorisGPT
 
-This script enables users to dictate a vocal prompt, send the request to ChatGPT, and receive the corresponding response, all in a vocal manner.
+This script allows users to dictate a vocal command, send the request to ChatGPT, and receive the corresponding response, all in a vocal manner.
+
+The uniqueness of this script is that the output audio (ChatGPT's response) is generated phrase by phrase, ensuring a completely smooth audio output regardless of the length of ChatGPT's response.
+
+Finally, the script assembles the audio file pieces to merge them into a single file named response.wav.
 
 1. **Clone** DorisGPT Repo on you laptop or server with micro device entry :
 ```bash
