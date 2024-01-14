@@ -2,7 +2,39 @@
 
 This script enables users to dictate a vocal prompt, send the request to ChatGPT, and receive the corresponding response, all in a vocal manner.
 
-1. **Install** the pre-requisites :
+1. **Clone** DorisGPT Repo on you laptop or server with micro device entry :
+```bash
+git clone https://github.com/JeanSebastienBash/DorisGPT
+```
+
+2. **Download** and **Extract** the Vosk model of your choice :
+```bash
+# Official Vosk Page Models
+# https://alphacephei.com/vosk/models
+# French models
+# https://alphacephei.com/vosk/models/vosk-model-fr-0.22.zip
+# or https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip
+```
+
+3. **Configure** the vosk model you want use in **lib/speech2text.py** :
+```bash
+nano lib/text2speech.py # comment or uncomment as you want
+# https://alphacephei.com/vosk/models/vosk-model-fr-0.22.zip
+# or https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip
+```
+
+4. **Configure** the time duration between start bip & end bip (for vocal micro entry)  in **lib/speech2text.py** :
+```bash
+nano lib/text2speech.py # change number as duration you want
+duration = 5 # change here
+```
+
+5. **Configure** your OpenAiI API Key in **lib/text2speech.py** :
+```bash
+openai.api_key = "YOUR TOKEN HERE```
+```
+
+6. **Install** the pre-requisites :
 ```bash
 sudo apt install sox
 python3 -m venv venv
@@ -41,15 +73,6 @@ mkdir -p lib/models/vosk
     ├── reponse_clean.txt
     ├── reponse_global.wav
     └── reponse.txt
-```
-
-2. **Download** and **Download** the Vosk model of your choice :
-```bash
-# https://alphacephei.com/vosk/models
-
-# French models
-# https://alphacephei.com/vosk/models/vosk-model-fr-0.22.zip
-# or https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip
 ```
 
 <p align="center">
