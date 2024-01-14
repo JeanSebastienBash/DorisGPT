@@ -47,8 +47,14 @@ sudo apt install sox
 python3 -m venv venv
 source venv/bin/activate
 pip install openai==0.28
-bash dorisgpt.sh
+```
 
+7. **Run** DorisGPT script* :
+```bash
+bash dorisgpt.sh
+```
+**Overview** of Dorigpt files tree* :
+```bash
 # tree -L 5
 ├── dorisgpt.sh
 ├── lib
