@@ -7,6 +7,10 @@ Additionally:
 - The transcription of the user's audio question and the text output from ChatGPT are displayed in the console during the execution of the DorisGPT script.
 - In the end, the DorisGPT script assembles the fragments of audio files to merge them into a single file named response.wav. You will also find other output files in the output/ directory.
 
+<p align="center">
+  <img src="dorisgpt.jpg" alt="doris image"/>
+</p>
+
 ### DEPLOYMENT
 
 1. **Clone** DorisGPT Repo on your laptop or server using the micro device input: :
@@ -138,7 +142,3 @@ bash dorisgpt.sh
 ├── dorisgptvenv
 │   ├── ...
 ```
-
-<p align="center">
-  <img src="dorisgpt.jpg" alt="doris image"/>
-</p>
